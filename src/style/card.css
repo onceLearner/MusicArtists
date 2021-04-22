@@ -1,0 +1,71 @@
+
+.card_wrapper{
+    position: relative;
+    background: linear-gradient(to right, #fdfbfb    , #ebedee);
+    display: flex;
+ 
+border-radius: 7px;
+border:1px solid #ebedee;
+
+padding:10px;
+
+
+}
+.card_wrapper:hover{
+    box-shadow: 4px 4px 20px #e4e4e4;
+}
+
+.artist_image_img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+.svg_select{
+    position:absolute;
+    top: 2px;
+    right: 5px;
+    width: 35px;
+    height:40px;
+    color:rgb(180, 180, 180)
+
+
+}
+.svg_select:hover{
+    cursor: pointer;
+    color: lightcoral;
+}
+
+.svg_followers{
+  
+    width: 18px;
+    height:18px;
+    color:rgb(180, 180, 180)
+
+
+}
+
+.flex_wrapper{
+    display: flex;
+    color:gray;
+     gap: 5px;
+    align-items: center;
+    padding-block: 4px;
+}
+
+.genres{
+
+}
+.svg_spotify{
+    width: 20px;
+    fill: gray;
+
+}
+.svg_spotify:hover{
+    fill: #1ed760;
+}
+.artist_data{
+    display: flex;
+    flex-direction: column;
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
